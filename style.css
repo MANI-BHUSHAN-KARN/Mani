@@ -454,6 +454,6 @@ footer {
     }
     .timeline-item::after {
         /* FIX 2: Adjusted 'left' value to perfectly center the circle on the line */
-        left: 11px;
-    }
+        left: 11px;
+    }
 }
