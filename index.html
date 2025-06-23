@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mani Bhushan Kumar Karn - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
             <div class="logo">
                 <a href="#home">MBK</a>
             </div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -23,6 +23,22 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="header-controls">
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round">
+                            <i class="fas fa-sun sun-icon"></i>
+                            <i class="fas fa-moon moon-icon"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -50,7 +66,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="experience">
             <div class="container">
                 <h2>Work Experience</h2>
@@ -123,17 +139,17 @@
                     <div class="service-box">
                         <i class="fas fa-shopping-basket"></i>
                         <h3>Grocery</h3>
-                        <p>Delivering fresh, high-quality groceries and daily essentials directly to your doorstep for ultimate convenience.</p>
+                        <p>Delivering fresh, high-quality groceries and daily essentials directly to your doorstep.</p>
                     </div>
                     <div class="service-box">
                         <i class="fas fa-mobile-alt"></i>
                         <h3>Gadgets</h3>
-                        <p>Your source for the latest and most innovative electronic gadgets designed to enhance and simplify your modern lifestyle.</p>
+                        <p>Your source for the latest and most innovative electronic gadgets to enhance your lifestyle.</p>
                     </div>
                     <div class="service-box">
                         <i class="fas fa-home"></i>
                         <h3>Home Appliances</h3>
-                        <p>A curated selection of reliable and efficient home appliances to help you build a comfortable and functional living space.</p>
+                        <p>A curated selection of reliable and efficient home appliances for your living space.</p>
                     </div>
                 </div>
             </div>
@@ -171,9 +187,9 @@
                         <p><i class="fas fa-phone"></i> <a href="tel:9869494397">9869494397</a></p>
                         <p><i class="fas fa-map-marker-alt"></i> Kirtipur, Rarahil-14</p>
                         <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
